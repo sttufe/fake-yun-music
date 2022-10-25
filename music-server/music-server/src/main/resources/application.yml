@@ -1,0 +1,30 @@
+server:
+  port: 8888
+
+#redis
+spring:
+  profiles:
+    active: dev
+  redis:
+    host: 192.168.10.102
+    port: 6379
+    database: 0
+    timeout: 1800000
+    #redis 客户端
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: 1
+        max-idle: 5
+        min-idle: 0
+
+#--mybatis-plus
+mybatis-plus:
+    configuration :
+          log-impl : org.apache.ibatis.logging.stdout.StdOutImpl
+          map-underscore-to-camel-case: true
+
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  typeAliasesPackage: com.musicserver.model.domain
