@@ -2,6 +2,9 @@ package com.musicserver.entity;
 
 import java.io.Serializable;
 
+/**
+ * 聊天主要信息
+ */
 public class ChatMsg  implements Serializable {
     private String senderId;
 

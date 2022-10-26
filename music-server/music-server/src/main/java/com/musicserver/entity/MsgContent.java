@@ -5,6 +5,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
+/**
+ * 聊天信息交换
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 @Data

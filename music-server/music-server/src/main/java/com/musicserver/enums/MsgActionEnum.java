@@ -1,5 +1,9 @@
 package com.musicserver.enums;
 
+
+/**
+ * 信息交换模块枚举
+ */
 public enum MsgActionEnum {
     CONNECT(1,"第一次连接或重连"),
     CHAT(2,"聊天消息"),

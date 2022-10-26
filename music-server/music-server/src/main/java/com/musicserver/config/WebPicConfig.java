@@ -7,10 +7,8 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * 集中一下图像的配置类吧
+ * 集中图像的配置类
  *
- * @Author 祝英台炸油条
- * @Time : 2022/6/5 22:23
  **/
 @Configuration
 public class WebPicConfig implements WebMvcConfigurer {

@@ -2,10 +2,10 @@ package com.musicserver.model.request;
 
 import lombok.Data;
 
+
 /**
- * @Author 祝英台炸油条
- * @Time : 2022/6/6 20:38
- **/
+ * 歌单对应歌曲
+ */
 @Data
 public class SongListRequest {
     private Integer id;
